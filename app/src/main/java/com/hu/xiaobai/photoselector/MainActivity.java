@@ -1,11 +1,11 @@
-package com.hu.xiaobai.photoselector;
+﻿package com.hu.xiaobai.photoselector;
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.VideoView;
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * 选择图片结果回调
+     * 閫夋嫨鍥剧墖缁撴灉鍥炶皟
      *
      * @param requestCode
      * @param resultCode
@@ -105,3 +105,4 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+

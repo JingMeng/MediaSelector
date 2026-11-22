@@ -2,7 +2,7 @@ package com.example.media.bean;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.v4.util.LruCache;
+import androidx.collection.LruCache;
 import android.util.Log;
 
 import java.util.ArrayList;

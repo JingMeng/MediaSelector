@@ -1,8 +1,8 @@
 package com.example.media.resolver;
 
 import android.app.Activity;
-import android.support.annotation.NonNull;
-import android.support.v4.util.SparseArrayCompat;
+import androidx.annotation.NonNull;
+import androidx.collection.SparseArrayCompat;
 
 import java.lang.ref.SoftReference;
 import java.util.HashMap;

@@ -1,1 +1,3 @@
 include ':app', ':media'
+include ':imagecompress'
+project(':imagecompress').projectDir = file('vendor/ImageCompress-2.0.9/compress')
